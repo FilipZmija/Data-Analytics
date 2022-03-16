@@ -10,14 +10,14 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 9> locations_array__ = 
 {" (found before start of program)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 6, column 4 to column 12)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 7, column 4 to column 24)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 12, column 4 to column 22)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 13, column 4 to column 25)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 17, column 4 to column 26)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 2, column 4 to column 19)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 3, column 11 to column 12)",
- " (in 'C:/Users/Filip/Desktop/DataAnalysis/Data-Analytics/lab3/stan1.stan', line 3, column 4 to column 16)"};
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 6, column 4 to column 12)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 7, column 4 to column 24)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 12, column 4 to column 22)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 13, column 4 to column 25)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 17, column 4 to column 26)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 2, column 4 to column 19)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 3, column 11 to column 12)",
+ " (in 'C:/Users/PLFIZMI/Desktop/Pythonn/Data-Analytics/lab3/stan1.stan', line 3, column 4 to column 16)"};
 
 
 

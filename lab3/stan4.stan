@@ -3,13 +3,13 @@ data{
 }
 
 generated quantities {
-    realu mu = normal_rng(0, 1);
+    real mu = normal_rng(0, 1);
     real<lower=0> sigma = abs(normal_rng(0, 1));
     
-    arrat[N] real y_prior;
+    array[N] real y_prior;
 
     for(n in 1:N){
-        y_prior = normal_rng(mu, sigma);
+        y_prior[n] = normal_rng(mu, sigma);
     }
     
 }

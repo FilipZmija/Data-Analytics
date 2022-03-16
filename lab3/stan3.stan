@@ -10,11 +10,13 @@ parameters{
 
 model{
     //prior model parameters
-    mu ~ normal(0, 1, 0);
+    mu ~ normal(0, 1);
     sigma ~ normal(0, 1);
+
+    y ~ normal(mu, sigma);
 }
 
-y ~ normal(mu, sigma);
+
 
 generated quantities{
     vector[N] y_rep;
