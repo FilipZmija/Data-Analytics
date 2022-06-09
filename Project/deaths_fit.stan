@@ -22,10 +22,8 @@ model {
 }
 
 generated quantities {
-    vector[N] log_lik;
-   array [N] real death;
+    real death[N];
     for (i in 1:N) {
-        log_lik[i] = normal_lpdf(deaths[i] | mu[i], sigma);
         death[i] = normal_rng(mu[i], sigma);
     }
 }   
